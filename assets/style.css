@@ -55,6 +55,37 @@ li{
     width: 40%;
     border-radius: 10px;
 }
+.clientes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    grid-template-rows: 100px 200px;
+}
+
+.cliente1{
+    display: grid;
+    grid-column: 1/4;
+    width: 10vw;
+
+}
+.cliente2{
+    display: grid;
+    grid-row: 2/4;
+    width: 10vw;
+
+}
+.cliente3{
+    display: grid;    
+    width: 10vw;
+
+}
+.cliente4{
+    display: grid;
+    justify-self: center;
+        width: 10vw;
+
+
+}
 
 .nav{
     font-weight: bold;
